@@ -1,0 +1,32 @@
+.main{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 60vh;
+    margin: auto;
+    background-color: antiquewhite;
+
+}
+.container{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    gap: 2px;
+
+}
+#btn{
+
+    background-color: white;
+    margin-top: 10px;
+    color: black;
+    box-shadow: 2px 2px;
+    border-radius: 10px;
+}
+#btn:hover{
+    box-shadow: 0px 0px;
+}
