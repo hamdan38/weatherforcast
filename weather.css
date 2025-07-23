@@ -2,10 +2,11 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height:auto;
     width: 60vh;
     margin: auto;
-    background-color: antiquewhite;
+    background-color: rgb(199, 214, 230,0.4);
+    z-index: 100;
 
 }
 .container{
@@ -18,15 +19,37 @@
     position: relative;
     gap: 2px;
 
+
 }
 #btn{
-
-    background-color: white;
-    margin-top: 10px;
-    color: black;
-    box-shadow: 2px 2px;
+    margin-top: 24px;
+    box-shadow: 2px 2px black;
     border-radius: 10px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color:#495057;
+  color: #fff; 
 }
 #btn:hover{
     box-shadow: 0px 0px;
+    background-color: #fff;
+  color: #495057
+}
+#inp{
+    border-radius: 9px;
+    padding: 6px;
+}
+#h{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(22, 97, 127);
+    text-transform: capitalize;
+    z-index: 200;
+}
+p{
+    text-transform: capitalize;
+    font-weight: bold;
+
 }
